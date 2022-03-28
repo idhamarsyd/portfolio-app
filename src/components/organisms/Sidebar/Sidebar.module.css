@@ -1,0 +1,12 @@
+.root {
+  width: fit-content;
+  box-sizing: border-box;
+  padding: 0px 32px;
+  display: flex;
+  height: 100vh;
+  align-content: center;
+  box-shadow: 8px 0px 48px -12px rgba(0, 0, 0, 0.16);
+  background-color: #fafafa;
+  overflow: visible;
+  /* border: 1px solid black; */
+}

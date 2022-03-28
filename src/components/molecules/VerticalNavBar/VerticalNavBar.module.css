@@ -1,0 +1,14 @@
+.root {
+  width: auto;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: visible;
+  /* border: 1px solid black; */
+  margin: 0;
+  padding: 0;
+  /* position: fixed; /* Make it stick, even on scroll */
+  /* overflow: auto; Enable scrolling if the sidenav has too much content */
+}

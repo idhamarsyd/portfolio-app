@@ -1,0 +1,13 @@
+.root {
+  width: auto;
+  height: auto;
+}
+
+.text {
+  word-wrap: break-word;
+  word-break: break-word;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 1.2;
+}

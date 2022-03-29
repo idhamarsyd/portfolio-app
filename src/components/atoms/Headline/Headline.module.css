@@ -1,0 +1,15 @@
+.root {
+  /* flex-shrink: 0; */
+  width: auto; /* 133px */
+  height: auto; /* 58px */
+  /* white-space: pre; */
+}
+
+.text {
+  font-weight: 600;
+  font-family: "Inter-SemiBold", "Inter", sans-serif;
+  color: #212121;
+  font-size: 48px;
+  letter-spacing: 0px;
+  line-height: 1.2;
+}

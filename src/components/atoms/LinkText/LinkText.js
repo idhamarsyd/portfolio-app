@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import styles from "./LinkText.module.css";
+import { NavLink } from "react-router-dom";
 
 class LinkText extends Component {
   constructor(props) {
@@ -8,9 +9,12 @@ class LinkText extends Component {
   render() {
     return (
       <div className={styles.root}>
-        <a href="#" className={styles.text}>
+        <NavLink
+          to={this.props.url}
+          className={({ isActive }) => (isActive ? styles.active : styles.text)}
+        >
           {this.props.label}
-        </a>
+        </NavLink>
       </div>
     );
   }

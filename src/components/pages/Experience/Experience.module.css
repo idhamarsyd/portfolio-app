@@ -1,0 +1,8 @@
+.root {
+  /* border: 1px solid black; */
+  margin-left: 25%;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

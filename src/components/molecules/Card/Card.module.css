@@ -1,0 +1,32 @@
+.root {
+  width: 560px;
+  /* border: 1px solid black; */
+  margin: 64px 0px;
+}
+
+.headerLeft {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* align-cont ent: flex-start; */
+  overflow: visible;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  height: 56px;
+  /* border: 1px solid black; */
+}
+
+.header {
+  width: 100%;
+  height: auto; /* 65px */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  overflow: visible;
+}
+
+.content {
+  width: 100%;
+}

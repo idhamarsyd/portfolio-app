@@ -4,9 +4,12 @@
   padding: 0px 32px;
   display: flex;
   height: 100vh;
+  top: 0;
+  left: 0;
   align-content: center;
   box-shadow: 8px 0px 48px -12px rgba(0, 0, 0, 0.16);
   background-color: #fafafa;
   overflow: visible;
+  position: fixed;
   /* border: 1px solid black; */
 }
